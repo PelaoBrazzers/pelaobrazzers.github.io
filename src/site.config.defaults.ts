@@ -161,30 +161,6 @@ const defaultThemeConfig: ThemeConfig = {
         },
         about: DEFAULT_ABOUT_CONFIG,
       },
-      ja: {
-        meta: {
-          label: '日本語',
-          hreflang: 'ja',
-          ogLocale: 'ja_JP',
-          fallback: ['en'],
-        },
-        site: {
-          hero: 'このサイトの紹介文と、読者がどんな記事を期待できるかを書いてください。',
-        },
-        about: DEFAULT_ABOUT_CONFIG,
-      },
-      ko: {
-        meta: {
-          label: '한국어',
-          hreflang: 'ko',
-          ogLocale: 'ko_KR',
-          fallback: ['en'],
-        },
-        site: {
-          hero: '사이트 소개와 방문자가 어떤 글을 기대할 수 있는지 간단히 작성하세요.',
-        },
-        about: DEFAULT_ABOUT_CONFIG,
-      },
       es: {
         meta: {
           label: 'Español',
@@ -194,18 +170,6 @@ const defaultThemeConfig: ThemeConfig = {
         },
         site: {
           hero: 'Escribe una breve presentación del sitio y qué tipo de contenido encontrarán tus lectores.',
-        },
-        about: DEFAULT_ABOUT_CONFIG,
-      },
-      zh: {
-        meta: {
-          label: '中文',
-          hreflang: 'zh-CN',
-          ogLocale: 'zh_CN',
-          fallback: ['en'],
-        },
-        site: {
-          hero: '在这里写一段站点简介，并告诉读者你将发布什么类型的内容。',
         },
         about: DEFAULT_ABOUT_CONFIG,
       },
