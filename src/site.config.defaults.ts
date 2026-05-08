@@ -103,7 +103,7 @@ const defaultThemeConfig: ThemeConfig = {
     title: 'PeladoBrazzers Blog',
     description:
       'Cinematic web interfaces, AI-era engineering notes, and system architecture essays.',
-    url: 'https://example.com',
+    url: 'https://pelaobrazzers.github.io',
     author: 'PeladoBrazzers',
     tagline: 'Built with tomcat.',
   },
@@ -169,7 +169,7 @@ const defaultThemeConfig: ThemeConfig = {
           fallback: ['en'],
         },
         site: {
-          hero: 'Escribe una breve presentación del sitio y qué tipo de contenido encontrarán tus lectores.',
+          hero: 'Blog encfocado en ciberseguridad principalmente ofensiva.',
         },
         about: DEFAULT_ABOUT_CONFIG,
       },
