@@ -12,7 +12,7 @@ const themeDefaultI18nEntry = resolveThemeDefaultI18nEntry(import.meta.url);
 
 // https://astro.build/config
 export default defineConfig({
-  site: SITE_URL,
+  site: 'https://peladobrazzers.github.io',
   vite: {
     resolve: {
       alias: {
