@@ -22,7 +22,7 @@ export function getSiteHero(locale: Locale): string | undefined {
     en: 'Write a short introduction for your site and what readers can expect from your posts.',
     ja: '',
     ko: '',
-    es: 'Escribe una breve presentación del sitio y qué tipo de contenido encontrarán tus lectores.',
+    es: 'Blog con información sobre el pentesting.',
     zh: '',
   };
 
