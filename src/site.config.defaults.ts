@@ -100,12 +100,12 @@ export const DEFAULT_ABOUT_CONFIG: AboutConfig = {
 
 const defaultThemeConfig: ThemeConfig = {
   site: {
-    title: 'My Blog',
+    title: 'PeladoBrzzers Blog',
     description:
       'Cinematic web interfaces, AI-era engineering notes, and system architecture essays.',
     url: 'https://example.com',
-    author: 'Your Name',
-    tagline: 'Built with Astro.',
+    author: 'PeladoBrzzers',
+    tagline: 'Built with tomcat.',
   },
   theme: {
     blogPageSize: 9,

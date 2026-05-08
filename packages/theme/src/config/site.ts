@@ -20,10 +20,10 @@ export const SITE_TAGLINE = (env.PUBLIC_SITE_TAGLINE as string | undefined) ?? '
 export function getSiteHero(locale: Locale): string | undefined {
   const heroByEnabledLocale: Partial<Record<Locale, string>> = {
     en: 'Write a short introduction for your site and what readers can expect from your posts.',
-    ja: 'このサイトの紹介文と、読者がどんな記事を期待できるかを書いてください。',
-    ko: '사이트 소개와 방문자가 어떤 글을 기대할 수 있는지 간단히 작성하세요.',
+    ja: '',
+    ko: '',
     es: 'Escribe una breve presentación del sitio y qué tipo de contenido encontrarán tus lectores.',
-    zh: '在这里写一段站点简介，并告诉读者你将发布什么类型的内容。',
+    zh: '',
   };
 
   return heroByEnabledLocale[locale];
