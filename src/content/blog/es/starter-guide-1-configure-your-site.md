@@ -1,7 +1,7 @@
 ---
 title: 'Laboratorios para aprender a usar una consola de Linux'
 subtitle: 'Como poner en practica el conocimiento basico en BASH'
-description: 'Las primeras opciones reales para usuarios son la identidad del sitio, social links, el toggle de About y el reemplazo del contenido inicial.'
+description: 'Conocimientos basicos de Bash.'
 pubDate: '2026-03-07'
 heroImage: '../../../assets/blog/default-covers/cyber-02.webp'
 ---
@@ -57,3 +57,22 @@ Una forma ver el contenido de '-' es usar la ruta de '-'
 ```bash
 cat './-'
 ```
+
+#### Nivel 2
+
+Usando la contraseña del nivel anterior iniciamos como bandit2
+```bash
+ssh bandit2@bandit.labs.overthewire.org -p 2220
+```
+Al ver los archivos disponibles este contiene espacios en el nombre
+```
+ls
+--spaces in this filename--
+```
+Al usar una consola interactiva en linux una de las opciones que peuden estar disponibles es la funcion de auntocompletar. Esta misma autocompleta el nombre del archivo presionando la tecla "Tab"
+
+Escribiendo lo siguiente en consola y luego presionando `tab` deberia completarse el nombre del archivo
+```bash
+cat ./-
+```
+Una vez se autocompleta el nombre dando un enter deberia salir la contraseña de bandit3
