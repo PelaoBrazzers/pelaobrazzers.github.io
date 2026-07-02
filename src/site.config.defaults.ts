@@ -4,7 +4,7 @@ import type { ThemeConfig, AboutConfig } from './site.config.schema.ts';
 export const DEFAULT_ABOUT_CONFIG: AboutConfig = {
   metaLine: '$ profile booted | mode: builder',
   sections: {
-    who: 'En: \n I\'m cybersecurity student focused in internal testing. \n Es: Soy un estudiante de Cyberseguridad principalmente ofensiva en redes internas',
+    who: 'En: \n I\'m cybersecurity student focused in internal testing.            Es: Soy un estudiante de Cyberseguridad principalmente ofensiva en redes internas',
     what: 'Describe what you build, your core skills, and the kinds of projects you want to be known for.',
     ethos: [
       'Prioritize clarity before complexity.',
@@ -157,7 +157,7 @@ const defaultThemeConfig: ThemeConfig = {
           ogLocale: 'en_US',
         },
         site: {
-          hero: 'Write a short introduction for your site and what readers can expect from your posts.',
+          hero: 'Blog focused on Penetration.',
         },
         about: DEFAULT_ABOUT_CONFIG,
       },
@@ -169,7 +169,7 @@ const defaultThemeConfig: ThemeConfig = {
           fallback: ['en'],
         },
         site: {
-          hero: 'Blog encfocado en ciberseguridad principalmente ofensiva.',
+          hero: 'Blog enfocado en Penetracion.',
         },
         about: DEFAULT_ABOUT_CONFIG,
       },
