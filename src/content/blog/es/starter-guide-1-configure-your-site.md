@@ -20,7 +20,7 @@ Para empezar los laboratorios de la categoria bandit tenemos que ir al nivel 0
 https://overthewire.org/wargames/bandit/bandit0.html
 
 #### Nivel 0
-Este nivel es una introducción a como establecer una conexión ssh con el objetivo dandonos el host, puerto, puerto usuario y contraseña. El puerto no es el que está por defecto por lo cual hay que "agregarle una flag al comando del ssh para especificar el puerto en el cual se debe resolver". 
+Este nivel es una introducción a como establecer una conexión ssh con el objetivo, dandonos el host, puerto usuario y contraseña. El puerto no es el que está por defecto, por lo cual hay que "agregarle una flag al comando del ssh para especificar el puerto en el cual se debe resolver". 
 Usuario: "bandit0"
 Contraseña: "bandit0"
 Puerto: "2220"
@@ -51,7 +51,7 @@ Veamos el contenido de la carpeta de usuario
 ```bash
 ls -la
 ```
-Hay un archivo que tiene de nombre "-" que para los que sepan un poco de consolas saben que por lo general el caracter "-" por lo general se utiliza para determinar una flag por lo que metodos convencionales para ver el archivo no deberian funcionar. En teste caso podemos usar la ruta del archivo para poder leerlo, un pequeño detalle a tomar en cuenta con las rutas "./", es una forma de decir que es tu ruta actual, a diferencia de lo que es la ruta absoluta "/", porque estas diciendo que empiece por la raíz del sistema. Otro detalle usar comillas o comillas dobles le estas diciendo a la consola que tome lo que esta contenido dentro de eso como un string (No todos los caracteres se convierten en string o llegan a ser interpretados de esa forma).
+Hay un archivo que tiene de nombre "-" que para los que sepan un poco de consolas saben que por lo general el caracter "-" por lo general se utiliza para determinar una flag por lo que metodos convencionales para ver el archivo no deberian funcionar. En teste caso podemos usar la ruta del archivo para poder leerlo, un pequeño detalle a tomar en cuenta con las rutas "./", es una forma de decir que es tu ruta actual, a diferencia de lo que es la ruta absoluta "/", porque estas diciendo que empiece por la raíz del sistema.
 
 Una forma ver el contenido de '-' es usar la ruta de '-'
 ```bash
