@@ -2,7 +2,7 @@
 title: 'Entorno de Ciberseguridad'
 subtitle: 'Maquinas virtuales'
 description: 'Experiencias con Maquinas virtuales.'
-pubDate: '2026-04-06'
+pubDate: '2026-03-06'
 heroImage: '../../../assets/blog/default-covers/cyber-02.webp'
 ---
 

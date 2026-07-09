@@ -1,8 +1,8 @@
 ---
-title: 'Footprinting'
-subtitle: 'Empezando en HTB Labs'
-description: 'Maquinas iniciales para aprender conceptos bá'
-pubDate: '2026-03-01'
+title: 'Notas del Footprinting en HTB'
+subtitle: 'Notas al stilo Cheatsheet'
+description: 'Notas al stilo Cheatsheet'
+pubDate: '2026-03-05'
 heroImage: '../../../assets/blog/default-covers/matrix-01.webp'
 aiModel: 'anglefeint-core'
 aiMode: 'draft'
