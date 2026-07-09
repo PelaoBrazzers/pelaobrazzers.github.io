@@ -4,7 +4,7 @@ import type { ThemeConfig, AboutConfig } from './site.config.schema.ts';
 export const DEFAULT_ABOUT_CONFIG: AboutConfig = {
   metaLine: '$ profile booted | mode: builder',
   sections: {
-    who: 'En: \n I\'m cybersecurity student focused in internal testing.            Es: Soy un estudiante de Cyberseguridad principalmente ofensiva en redes internas',
+    who: 'Es: Soy un estudiante de Cyberseguridad principalmente ofensiva en redes internas con experiencia de penetración en entonrnos controlados. En: \n I\'m a cybersecurity student focused on internal testing, with some penetration testing experience in practice environments.',
     what: 'Describe what you build, your core skills, and the kinds of projects you want to be known for.',
     ethos: [
       'Prioritize clarity before complexity.',

@@ -1,5 +1,5 @@
 ---
-title: 'Starting Point - Fawn'
+title: 'Starting Point - Fawn & Dancing'
 subtitle: 'default locale, fallback y reglas de URL'
 description: 'El registro único de locales controla routing, labels, fallback, messages, hero y About content.'
 pubDate: '2026-03-07'
