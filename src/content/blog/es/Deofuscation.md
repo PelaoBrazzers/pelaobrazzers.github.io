@@ -1,7 +1,7 @@
 ---
 title: 'JavaScript Deobfuscation'
 subtitle: 'Welcome and tooling statement'
-description: 'Bienvenida a Anglefeint: repositorio, stack AI y enfoque de ingenieria.'
+description: 'Modulo defensivo que enseña sobre la ofuscación de código'
 pubDate: '2026-03-06'
 heroImage: '../../../assets/blog/default-covers/cyber-04.webp'
 ---
