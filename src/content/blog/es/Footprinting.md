@@ -81,6 +81,7 @@ smbclient //10.129.14.128/ejemplo -U '<usuario>%<contraseña>'
 | `ls`                | listar contenido de la carpeta    |
 | `cd <carpeta>`      | entrar en la carpeta              |
 | `help`              | ver comandos                      |
+
 ##### RPCclient
 ```python
 rpcclient -U "" 10.129.14.128
@@ -95,6 +96,7 @@ rpcclient -U "" 10.129.14.128
 |`netsharegetinfo <share>`|Provides information about a specific share.|
 |`enumdomusers`|Enumerates all domain users.|
 |`queryuser <RID>`|Provides information about a specific user.|
+
 Fuerza bruta RID (enumerar usuarios)
 ```bash
 for i in $(seq 500 1100);do rpcclient -N -U "" 10.129.14.128 -c "queryuser 0x$(printf '%x\n' $i)" | grep "User Name\|user_rid\|group_rid" && echo "";done
@@ -245,6 +247,7 @@ sudo nmap 10.129.14.128 -p25 --script smtp-open-relay -v
 | `1 CLOSE`                       | Elimina todos los mensajes marcados con la bandera Deleted.                                           |
 | `1 LOGOUT`                      | Cierra la conexión con el servidor IMAP.                                                              |
 
+
 | POP3            |                                                               |
 | --------------- | ------------------------------------------------------------- |
 | `USER username` | Identifica al usuario.                                        |
@@ -256,6 +259,7 @@ sudo nmap 10.129.14.128 -p25 --script smtp-open-relay -v
 | `CAPA`          | Solicita al servidor mostrar sus capacidades.                 |
 | `RSET`          | Solicita al servidor restablecer la información transmitida.  |
 | `QUIT`          | Cierra la conexión con el servidor POP3.                      |
+
 IMAP con cURL se le puede agregar `-v` para ver más información
 ```bash
 curl -k 'imaps://10.129.14.128' --user user:p4ssw0rd
@@ -420,6 +424,7 @@ Contraseñas por defecto a tomar en cuenta
 |Dell iDRAC|root|calvin|
 |HP iLO|Administrator|randomized 8-character string consisting of numbers and uppercase letters|
 |Supermicro IPMI|ADMIN|ADMIN|
+
 Volcado de hashes con metasploit
 ```python
 msf6 > use auxiliary/scanner/ipmi/ipmi_dumphashes 
@@ -468,6 +473,7 @@ Para encontrar los servicios disponibles es con -sV en Nmap en los puertos
 | rsh     | rshd              | 514    | TCP                     | Abre una shell en una máquina remota sin un procedimiento de inicio de sesión. Confía en las entradas de los archivos /etc/hosts.equiv y .rhosts para la validación.                                                                                                               |
 | rexec   | rexecd            | 512    | TCP                     | Permite a un usuario ejecutar comandos de shell en una máquina remota. Requiere autenticación mediante nombre de usuario y contraseña a través de un socket de red no cifrado. La autenticación puede ser reemplazada por las entradas de confianza en /etc/hosts.equiv y .rhosts. |
 | rlogin  | rlogind           | 513    | TCP                     | Permite a un usuario iniciar sesión en un host remoto a través de la red. Funciona de manera similar a telnet pero solo puede conectarse a hosts tipo Unix. La autenticación puede ser reemplazada por las entradas de confianza en /etc/hosts.equiv y .rhosts.                    |
+
 Conectarse con rlogin
 ```python
 rlogin 10.0.17.2 -l htb-student
