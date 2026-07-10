@@ -7,13 +7,13 @@ heroImage: '../../../assets/blog/default-covers/cyber-02.webp'
 ---
 
 Mi experiencia con entornos para practicar ciberseguridad.
-Generalamente para empezar en ciberseguridad necesitamos un entorno de pruebas donde poder aplicar lo aprendido por lo que determinar cual y como será el mismo requiere un montón de conocimientos de sistemas operativos y virtualización para aprender todas las opciones disponibles. Si nos enfocamos en el apartado ofensivo el sistema a aprender es Linux.
+Generalmente para empezar en ciberseguridad necesitamos un entorno de pruebas donde poder aplicar lo aprendido. Para determinar cual y como será el mismo requiere un montón de conocimientos de sistemas operativos. A eso hay que sumarle virtualización porque por lo general se usan maquinas virtuales. Si nos enfocamos en el apartado ofensivo el sistema a dominar es Linux.
 
 #### Pwnbox de HTB (Escritorio remoto)
-Es un entorno muy util si no tienes un entorno preparado es iniciarlo y está listo para usarse. El problema es que no es lo más comodo para usar y no puedes mantener nada dentro del entorno porque al apagarlo se pierde todo. Es muy util si solo estas viendo de que trata el pentesting. 
+Si no tienes un entorno preparado es un entorno muy util y practico porque es iniciarlo y está listo para usarse. El problema es que no es muy comodo. Es muy util si solo estas viendo de que trata el pentesting. 
 
 #### Maquina Virtual
-La opción más simple si tienes una PC con un I5 o equivalente (con 8gb de ram o más en Windows) es tener una maquina virtual. Solo es descargar la maquina virtual y tener instalado el programa que la va correr. En el caso de usar Windows lo más comun es usar VirtualBox y VMware. Después de informarme un poco opté por VMware porque parecía tener mejor rendimiento que VirtualBox, esto no es algo que haya vericado y a mas recursos tenga tu PC menos deberia importarte. Para obtener el instalador de VMware la cosa no es simple, hay que entrar a la pagina de broadcom registrarse, rellenar un monton de datos y aprender como usar esa pagina porque no es muy amigable con el usuario a diferencia de VirtualBox que no necesitas nada para descargarlo.
+La opción más simple si tienes una PC con un I5, equivalente o superior (con 8gb de ram o más en Windows) es tener una maquina virtual. Solo es descargar la maquina virtual y tener instalado el programa que la va correr. En el caso de usar Windows lo más comun es usar VirtualBox y VMware. Para determinar cual usar después de informarme un poco opté por VMware porque parecía tener mejor rendimiento que VirtualBox, esto no es algo que haya vericado y a más recursos tenga tu PC menos deberia importarte. Para obtener el instalador de VMware la cosa no es simple, hay que entrar a la pagina de broadcom registrarse, rellenar un monton de datos y aprender como usar esa pagina porque no es muy amigable con el usuario a diferencia de VirtualBox que no necesitas nada para descargarlo.
 
 ##### Mis problemas iniciales con VMware
 Con VMware instalado decidi usar Kali linux porque en ese momento no habia una VM ya lista para usar por parte de Parrot y posiblemente fue la mejor desición que tomé. El proceso fué descargar e iniciar la maquina virtual y funcionaba perfectamente sin tener que pasar por un proceso de instalación ni nada, listo para usar.
