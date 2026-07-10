@@ -6,7 +6,7 @@ pubDate: '2026-03-06'
 heroImage: '../../../assets/blog/default-covers/cyber-04.webp'
 ---
 
-Algunas notas del módulo JavaScript Deobfuscation. Está clasificado como defensivo pero tambien sirve como conocimiento ofensivo
+Algunas notas del módulo JavaScript Deobfuscation. Está clasificado como defensivo pero tambien sirve como conocimiento ofensivo. Enseña algunas practicas de encriptación como base64 y rot13
 
 Correr código de js en forma online
 ```python

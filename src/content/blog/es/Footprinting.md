@@ -44,6 +44,7 @@ En el apartado de nombre escribir **anonymous** y cualquier contraseña
 | `binary`            | puede ayudar cuando hay probremas al obtener un archivo |
 | `put <archivo.txt>` | subir un archivo con ese nombre                         |
 | `cd <carpeta>`      | entrar en la carpeta                                    |
+
 Descargar todos los archivos disponibles
 ```bash
 wget -m --no-passive ftp://anonymous:anonymous@10.129.14.136
