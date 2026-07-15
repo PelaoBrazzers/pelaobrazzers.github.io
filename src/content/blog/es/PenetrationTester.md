@@ -63,7 +63,7 @@ Como lo indica el nombre del módulo enseña a usar Metasploit e información ad
 
 #### Password Attacks
 
-Es uno de los módulos más pesados en contenido y resolución de ejercicios. Tiene contenido teorico de contraseñas y creo que hace poco añadieron lo que es rainbow tables junto al concepto de salt. Hay fuerza bruta lo cual hace que sea más lento. Enseña a usar herramientas para crackear contraseñas como john the ripper y hashcat. Contiene información importante de contraseñas en sistemas Linux y Windows como la extracción de los hashes de las mismas. Hay algun ataque de directorio activo con hashes como puede ser un pass the ticket y el ataque mas importante a windows que es pass the hash (este ultimo en teoria ya lo arregló este año microsoft). Se le añadió contenido de tráfico en red que algunos protocolos no encriptan su contenido y si es capturado puede ser visto, algo como una contraseña en texto claro.
+Es uno de los módulos más pesados en contenido y resolución de ejercicios. Tiene contenido teorico de contraseñas y creo que hace poco añadieron lo que es rainbow tables junto al concepto de salt. Contiene información sobre hashes y diccionarios hasta como crear uno o utilizarlo de una manera distinta. Hay fuerza bruta lo cual hace que sea más lenta la resolución de ejercicios. Enseña a usar herramientas para crackear contraseñas como john the ripper y hashcat. Contiene información importante de contraseñas en sistemas Linux y Windows como la extracción de los hashes de las mismas. Hay algun ataque de directorio activo con hashes como puede ser un pass the ticket y el ataque mas importante a windows que es pass the hash (este ultimo en teoria ya lo arregló este año microsoft). Se le añadió contenido de tráfico en red que algunos protocolos no encriptan su contenido y si es capturado puede ser visto, algo como una contraseña en texto claro.
 
 #### Attacking common Services
 
@@ -81,5 +81,14 @@ Posiblemente es el modulo más complejo a nivel teorico y técnico en todo el ca
 #### Using Web Proxies
 
 En algún momento habrás escuchado la palabra proxy, en este modulo se enseña el concepto del mismo y enseña a utilizar las herramientas OWASP ZAP y Brupsuite que son utilizados para ataques webs. En ataque webs se utiliza principalmente para tener un control de las peticiones web las cuales puedes llegar a modificar, lo cual peude ser muy util. Como detalle extra fuera de lo que es el modulo, en caso que no conoscas la nueva herramienta Caido dale una mirada porque podria serte más comoda que Burpsuite
+
+#### Attacking Web Applications With Ffuf
+
+Continuando con el contenido web esta el fuzzing con esta herramienta. Es una forma de aplicar fuerza bruta usando diccionarios con el find de obtener más páginas, directorios, dominios o parametros ocultos dentro de la página. Hay que tener cuidado al usar herramientas de fuzzing porque puedes terminar baneado por alguna protección contra el fuzzing.
+
+
+#### Login Brute Forcing
+
+Otra forma de "atacar" contraseñas que es probando una por una para iniciar sesión. No todos los protocolos tienen una protección contra la fuerza bruta lo cual puede ser abusable si la contraseña es débil. Un ejemplo simple de protocolo protegido es kerberos (directorio activo), a donde te equivoques varias veces de contraseña se bloquea el usuario. A diferencia de crackear un hash en local esto lleva más tiempo y se detecta facilmente. Enseña a usar herramientas como Hydra y Medusa ademas de enseñar a hacer diccionarios personalizados.
 
 
