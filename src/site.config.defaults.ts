@@ -157,7 +157,7 @@ const defaultThemeConfig: ThemeConfig = {
           ogLocale: 'en_US',
         },
         site: {
-          hero: 'Blog focused on Penetration.',
+          hero: 'Blog focused on Penetration. Coming Soon. WIP',
         },
         about: DEFAULT_ABOUT_CONFIG,
       },

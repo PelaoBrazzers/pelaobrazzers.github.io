@@ -30,7 +30,6 @@ Otro modulo introductorio con algunas explicaciones de ciberseguridad y como ini
 - Ver código web, exploits, metasploit, eternal blue, web shell
 - Privilegios de usuario, ssh keys, transferencia de archivos
 
-- [Notas de Network Enumeration ](https://github.com/)
 
 #### Network Enumeration
 
