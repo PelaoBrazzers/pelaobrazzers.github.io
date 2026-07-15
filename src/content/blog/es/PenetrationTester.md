@@ -30,11 +30,13 @@ Otro modulo introductorio con algunas explicaciones de ciberseguridad y como ini
 - Ver código web, exploits, metasploit, eternal blue, web shell
 - Privilegios de usuario, ssh keys, transferencia de archivos
 
+- [Notas de Network Enumeration ](https://github.com/)
+
 #### Network Enumeration
 
 Este modulo te enseña a usar en profundidad nmap, una herramienta para detectar otros dispositivos en tu red, ver que puertos tienen abiertos, que servicio está ejecutandose en ese puerto abierto, etc. Tiene algunas tecnicas para evitar ser baneado por firewalls y algun detalle más. Este módulo enseña una forma activa a hacer un reconocimiento de la red interna.
 
-- [Notas de Network Enumeration ](/es/blog/NetworkEnum/)
+- [Notas de Network Enumeration ](/es/blog/networkenum/)
 
 #### Footprinting
 
