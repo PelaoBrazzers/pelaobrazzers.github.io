@@ -7,13 +7,19 @@ heroImage: '../../../assets/blog/default-covers/matrix-02.webp'
 ---
 
 Comentarios sobre el camino "Penetration Tester" en Hack The Box academy.
-Emepezemos con lo mas importante este camino no son para principiantes contiene conceptos para principiantes como mapear una red e interactuar con servicios comunes pero es demaciada información para uno. Esto no significa que alguien nuevo no pueda mirarlo sino que va a ser una experiencia más dura para los mismos. Esta enfocado en penetración de redes internas en entronos empresariales con mucho contenido y laboratorios de hacking para que puedas aprender a hacer los ataques. Algunos pequeños detalles de los modulos pueden estar desactualizados. El detalle más simple y notable es que "Crackmapexec" fue remplazado por "Netexec", la apariencia de bloodhound no es ni cerca de como se ve actualemnte, etc. Algo de agradecer es que siempre puedes acceder al material y los laboratorios e incluso puede llegar a ser actualizado.
+Emepezemos con lo mas importante este camino no es para principiantes contiene conceptos para principiantes como mapear una red e interactuar con servicios comunes pero es demaciada información para uno. Esto no significa que alguien nuevo no pueda mirarlo sino que va a ser una experiencia más dura para los mismos. 
+
+Está enfocado en penetración de redes internas en entronos empresariales con mucho contenido y laboratorios de hacking para que puedas aprender a hacer los ataques. Algunos pequeños detalles de los modulos pueden estar desactualizados. El detalle más simple y notable es que "Crackmapexec" fue remplazado por "Netexec", la apariencia de bloodhound no es ni cerca de como se ve actualemnte, etc. 
+
+Algo de agradecer es que siempre puedes acceder al material y los laboratorios e incluso puede llegar a ser actualizado.
 Muchos comentan que no otorga suficiente contenido de ataques webs pero para eso hay otro camino el cual es "Web penetration tester", el de pentester ya es muy largo y tiene bastante información.
+
+
 Otro punto a recalcar es que toda la academia esta en inglés, si bien ahora tiene una funcionalidad para traducir con IA, viene bien tomar como objetivo mejorar su lectura de inglés, ya que casi toda la documentación que vayan a encontrar de vulnerabilidades y demas casi siempre va a estar en inglés.
 
 #### Penetration Testing Process
 
-Este modulo teorico en el cual te explica bastantes cosas del pentesting el proceso y etapas del mismo. Que se debe hacer y que no se debe hacer. Te orienta un poco con cuidados que debes tener. Explica un poco de como hay que tratar con el cliente y alguna cosa. Al ser muy teorico no hay nada muy remarcable para comentar
+Este es un modulo teorico en el cual te explica bastantes cosas del pentesting el proceso y etapas del mismo. Que se debe hacer y que no se debe hacer. Te orienta un poco con cuidados que debes tener. Explica un poco de como hay que tratar con el cliente y alguna cosa. Al ser muy teorico no hay nada muy remarcable para comentar
 
 #### Getting Started
 
