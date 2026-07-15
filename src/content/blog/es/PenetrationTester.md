@@ -15,7 +15,7 @@ Algo de agradecer es que siempre puedes acceder al material y los laboratorios e
 Muchos comentan que no otorga suficiente contenido de ataques webs pero para eso hay otro camino el cual es "Web penetration tester", el de pentester ya es muy largo y tiene bastante información.
 
 
-Otro punto a recalcar es que toda la academia esta en inglés, si bien ahora tiene una funcionalidad para traducir con IA, viene bien tomar como objetivo mejorar su lectura de inglés, ya que casi toda la documentación que vayan a encontrar de vulnerabilidades y demas casi siempre va a estar en inglés.
+Otro punto a recalcar es que toda la academia esta en inglés, si bien ahora tiene una funcionalidad para traducir con IA, viene bien tomar como objetivo mejorar la lectura en inglés, ya que casi toda la documentación que vayan a encontrar de vulnerabilidades y demas casi siempre va a estar en inglés.
 
 #### Penetration Testing Process
 
@@ -58,3 +58,4 @@ Como lo indica el módulo enseña a usar Metasploit e información adicional del
 #### Password Attacks
 
 Es uno de los módulos más pesados en contenido y resolución de ejercicios. Tiene contenido teorico de contraseñas y creo que hace poco añadieron lo que es rainbow tables junto al concepto de salt. Hay fuerza bruta lo cual hace que sea más lento. Enseña a usar herramientas para crackear contraseñas como john the ripper y hashcat. Contiene información importante de contraseñas en sistemas Linux y Windows como la extracción de los hashes de las mismas. Hay algun ataque de directorio activo con hashes como puede ser un pass the ticket y el ataque mas importante a windows que es pass the hash (este ultimo en teoria ya lo arregló este año microsoft). Se le añadió contenido de tráfico en red que algunos protocolos no encriptan su contenido y si es capturado puede ser visto, algo como una contraseña en texto claro.
+
