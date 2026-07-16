@@ -4,23 +4,22 @@ import type { ThemeConfig, AboutConfig } from './site.config.schema.ts';
 export const DEFAULT_ABOUT_CONFIG: AboutConfig = {
   metaLine: '$ profile booted | mode: builder',
   sections: {
-    who: ['Es: Soy un estudiante de Cyberseguridad principalmente ofensiva en redes internas con experiencia de penetración en entonrnos controlados.', 
-      'En: \n I\'m a cybersecurity student focused on internal testing, with some penetration testing experience in practice environments.'],
-    what: 'Describe what you build, your core skills, and the kinds of projects you want to be known for.',
+    who: 'Es: Soy un estudiante de Cyberseguridad principalmente ofensiva en redes internas con experiencia de penetración en entornos controlados y laboratorios. En: \r\n \n I\'m a cybersecurity student focused on internal testing, with some penetration testing experience in practice environments.',
+    what: 'Me especializo en explotar servicios vulnerables en una red interna, tengo conocimientos de una gran variedad de servicios incluyendo todo lo relacionado a directorio activo. Puedo llegar a ser de utilidad para comprobar servicios y dispositivos disponibles en una red e incluso explotarlos. Poseo conocimientos de escalación de privilegios tanto el Linux como Windows y conocimientos básicos de ataques webs. ',
     ethos: [
-      'Prioritize clarity before complexity.',
-      'Favor maintainable systems over one-off solutions.',
-      'Ship in small iterations and learn from feedback.',
-      'Communicate directly and document decisions.',
+      'Mantenerse siempre dentro del escope.',
+      'No dañar nada intencianalmente.',
+      'Aprender de los comentarios.',
+      'Documentar desiciones y comunicación directa.',
     ],
-    now: 'Share what you are currently building, shipping, or learning.',
+    now: 'Actualmente estoy buscando una oportunidad que me permita dentrame en el ámbito profesional. Mientras tanto sigo puliendo mis habilidades ademas de aprender más en cyberseguridad, como pueden ser otros ataques o incluso conocimiento defensivo.',
     contactLead:
-      'Add a short collaboration note (for example: open to freelance, consulting, or full-time roles).',
-    signature: '> Replace with your own signature.',
+      '-',
+    signature: '> M.C.',
   },
   contact: {
     email: 'you@example.com',
-    githubUrl: 'https://github.com/yourname',
+    githubUrl: 'https://github.com/PelaoBrazzers/PeladoPenetrationStuff/tree/main/',
     githubLabel: 'GitHub',
   },
   sidebar: {
