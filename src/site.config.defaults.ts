@@ -4,15 +4,14 @@ import type { ThemeConfig, AboutConfig } from './site.config.schema.ts';
 export const DEFAULT_ABOUT_CONFIG: AboutConfig = {
   metaLine: '$ profile booted | mode: builder',
   sections: {
-    who: 'Es: Soy un estudiante de Cyberseguridad principalmente ofensiva en redes internas con experiencia de penetración en entornos controlados y laboratorios. En: \r\n \n I\'m a cybersecurity student focused on internal testing, with some penetration testing experience in practice environments.',
+    who: 'Es: Soy un estudiante de Cyberseguridad principalmente ofensiva en redes internas con experiencia de penetración en entornos controlados y laboratorios.',
     what: 'Me especializo en explotar servicios vulnerables en una red interna, tengo conocimientos de una gran variedad de servicios incluyendo todo lo relacionado a directorio activo. Puedo llegar a ser de utilidad para comprobar servicios y dispositivos disponibles en una red e incluso explotarlos. Poseo conocimientos de escalación de privilegios tanto el Linux como Windows y conocimientos básicos de ataques webs. ',
     ethos: [
-      'Mantenerse siempre dentro del escope.',
-      'No dañar nada intencianalmente.',
-      'Aprender de los comentarios.',
-      'Documentar desiciones y comunicación directa.',
+      'Mantenerse siempre dentro del scope.',
+      'No dañar nada intencionalmente.',
+      'Aprender del feedback.',
     ],
-    now: 'Actualmente estoy buscando una oportunidad que me permita dentrame en el ámbito profesional. Mientras tanto sigo puliendo mis habilidades ademas de aprender más en cyberseguridad, como pueden ser otros ataques o incluso conocimiento defensivo.',
+    now: 'Actualmente estoy buscando una oportunidad que me permita adentrame en el ámbito profesional. Mientras tanto sigo puliendo mis habilidades ademas de aprender más en cyberseguridad, como pueden ser otros ataques o incluso conocimiento defensivo.',
     contactLead:
       '-',
     signature: '> M.C.',
