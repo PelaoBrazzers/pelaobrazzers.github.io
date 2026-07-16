@@ -1,10 +1,18 @@
 ---
-title: 'Starting Point - Fawn & Dancing'
+title: 'Starting Point - Tier 0'
 subtitle: 'default locale, fallback y reglas de URL'
 description: 'El registro único de locales controla routing, labels, fallback, messages, hero y About content.'
 pubDate: '2026-03-07'
 heroImage: '../../../assets/blog/default-covers/cyber-03.webp'
 ---
+
+# Pequeña introducción
+
+Las maquinas de esta sección de HTB son para aprender conceptos básicos y ser amigables con los nuevos usuarios
+
+#Meow
+
+- [Resolución de la maquina Meow (PDF)](https://github.com/PelaoBrazzers/PeladoPenetrationStuff/blob/main/SpanishWritups/Starting_Point/Meow.pdf)
 
 #Fawn
 

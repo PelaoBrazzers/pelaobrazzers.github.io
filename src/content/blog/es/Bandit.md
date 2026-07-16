@@ -6,9 +6,9 @@ pubDate: '2026-03-07'
 heroImage: '../../../assets/blog/default-covers/cyber-02.webp'
 ---
 
-Los laboratorios Bandit en `OverTheWire` son una forma de aprender bien a detalle como usar una consola. Por ejemplo como ver un archivo que tiene espacios en el nombre. Aunque el contenido de algunos niveles enseñan cosas de pentesting vale la pena ver los primeros niveles para poner en practica conosimientos sobre consolas.
+Los laboratorios Bandit en `OverTheWire` son una forma de aprender bien a detalle como usar una consola. Por ejemplo como ver un archivo que tiene espacios en el nombre. Aunque el contenido de algunos niveles enseñan cosas de pentesting vale la pena ver los primeros niveles para poner en practica conocimientos sobre consolas.
 
-Antes de pasar a los laboratorios veamos algunos comandos basicos que se necesitan conocer
+Antes de pasar a los laboratorios veamos algunos comandos básicos que se necesitan conocer
 
 - `ls` ver contenido de una carpeta
 - `cd` se utiliza para moverse entre directorios/capetas
@@ -16,11 +16,11 @@ Antes de pasar a los laboratorios veamos algunos comandos basicos que se necesit
 - `ssh` es para establecer la conexion ssh
 - `find` se utiliza para ver contenido de una carpeta y/o subcarpetas, se puede filtrar los archivos
 
-Para empezar los laboratorios de la categoria bandit tenemos que ir al nivel 0
+Para empezar los laboratorios de la categoría bandit tenemos que ir al nivel 0
 https://overthewire.org/wargames/bandit/bandit0.html
 
 #### Nivel 0
-Este nivel es una introducción a como establecer una conexión ssh con el objetivo, dandonos el host, puerto usuario y contraseña. El puerto no es el que está por defecto, por lo cual hay que "agregarle una flag al comando del ssh para especificar el puerto en el cual se debe resolver". 
+Este nivel es una introducción a como establecer una conexión ssh con el objetivo, dándonos el host, puerto usuario y contraseña. El puerto no es el que está por defecto, por lo cual hay que "agregarle una flag al comando del ssh para especificar el puerto en el cual se debe resolver". 
 Usuario: "bandit0"
 Contraseña: "bandit0"
 Puerto: "2220"
@@ -36,7 +36,7 @@ bandit0@bandit:~$ ls
 readme
 ```
 Nos devuelve que hay un archivo "readme". 
-Con cat vamos a ver el contenido del archivo el cual nos dara la contraseña para bandit1
+Con cat vamos a ver el contenido del archivo el cual nos dará la contraseña para bandit1
 ```bash
 bandit0@bandit:~$ cat readme
 ```
@@ -51,7 +51,7 @@ Veamos el contenido de la carpeta de usuario
 ```bash
 ls -la
 ```
-Hay un archivo que tiene de nombre "-" que para los que sepan un poco de consolas saben que por lo general el caracter "-" por lo general se utiliza para determinar una flag por lo que metodos convencionales para ver el archivo no deberian funcionar. En teste caso podemos usar la ruta del archivo para poder leerlo, un pequeño detalle a tomar en cuenta con las rutas "./", es una forma de decir que es tu ruta actual, a diferencia de lo que es la ruta absoluta "/", porque estas diciendo que empiece por la raíz del sistema.
+Hay un archivo que tiene de nombre "-" que para los que sepan un poco de consolas saben que por lo general el carácter "-" por lo general se utiliza para determinar una flag por lo que métodos convencionales para ver el archivo no deberían funcionar. En teste caso podemos usar la ruta del archivo para poder leerlo, un pequeño detalle a tomar en cuenta con las rutas "./", es una forma de decir que es tu ruta actual, a diferencia de lo que es la ruta absoluta "/", porque estas diciendo que empiece por la raíz del sistema.
 
 Una forma ver el contenido de '-' es usar la ruta de '-'
 ```bash
@@ -69,10 +69,10 @@ Al ver los archivos disponibles este contiene espacios en el nombre
 ls
 --spaces in this filename--
 ```
-Al usar una consola interactiva en linux una de las opciones que peuden estar disponibles es la funcion de auntocompletar. Esta misma autocompleta el nombre del archivo presionando la tecla "Tab"
+Al usar una consola interactiva en linux una de las opciones que pueden estar disponibles es la función de auto-completar. Esta misma auto-completa el nombre del archivo presionando la tecla "Tab"
 
-Escribiendo lo siguiente en consola y luego presionando `tab` deberia completarse el nombre del archivo
+Escribiendo lo siguiente en consola y luego presionando `tab` debería completarse el nombre del archivo
 ```bash
 cat ./-
 ```
-Una vez se autocompleta el nombre dando un enter deberia salir la contraseña de bandit3
+Una vez se auto-completa el nombre dando un enter debería salir la contraseña de bandit3

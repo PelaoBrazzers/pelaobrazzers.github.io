@@ -11,7 +11,7 @@ export const DEFAULT_ABOUT_CONFIG: AboutConfig = {
       'No dañar nada intencionalmente.',
       'Aprender del feedback.',
     ],
-    now: 'Actualmente estoy buscando una oportunidad que me permita adentrame en el ámbito profesional. Mientras tanto sigo puliendo mis habilidades ademas de aprender más en cyberseguridad, como pueden ser otros ataques o incluso conocimiento defensivo.',
+    now: 'Actualmente estoy buscando una oportunidad que me permita adentrarme en el ámbito profesional. Mientras tanto sigo puliendo mis habilidades ademas de aprender más en cyberseguridad, como pueden ser otros ataques o incluso conocimiento defensivo.',
     contactLead:
       '-',
     signature: '> M.C.',
