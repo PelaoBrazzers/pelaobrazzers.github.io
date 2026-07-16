@@ -91,7 +91,7 @@ export const DEFAULT_MESSAGES: Record<string, Messages> = {
     about: {
       title: 'About — Hacker Ethos',
       description: 'Who I am, what I build, and the hacker ethos behind my work.',
-      who: 'Who I Am',
+      who: 'WhoAmI',
       what: 'What I Build',
       ethos: 'Hacker Ethos',
       now: 'Now',
