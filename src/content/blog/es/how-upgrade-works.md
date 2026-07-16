@@ -1,5 +1,5 @@
 ---
-title: 'Modelo de actualización: iniciar con starter y actualizar con npm'
+title: 'Plantilla temporal'
 subtitle: 'Ruta única para operar el tema'
 description: 'Flujo recomendado para iniciar y actualizar proyectos con Anglefeint.'
 pubDate: '2026-03-03'

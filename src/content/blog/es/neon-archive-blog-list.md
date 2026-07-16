@@ -1,5 +1,5 @@
 ---
-title: 'Blog List como una calle neon'
+title: 'Plantilla temporal'
 subtitle: 'Explorar en clave cyberpunk es direccion, no ruido'
 description: 'Por que la lista usa lluvia, neon y foco tipo Blade Runner para mejorar el momento de eleccion.'
 pubDate: '2026-03-04'

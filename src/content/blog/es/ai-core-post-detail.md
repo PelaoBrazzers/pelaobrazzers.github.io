@@ -1,5 +1,5 @@
 ---
-title: 'Por que el detalle del post es AI'
+title: 'Plantilla temporal'
 subtitle: 'Red neuronal, telemetria de modelo y monitor Red Queen'
 description: 'Sistema visual de detalle: red AI, lenguaje de estado y canal simbolico con Red Queen en el lateral.'
 pubDate: '2026-03-04'

@@ -1,5 +1,5 @@
 ---
-title: 'Bienvenido a Anglefeint'
+title: 'Plantilla temporal'
 description: 'Un artículo breve en español para mostrar la publicación de contenido multilingüe.'
 pubDate: '2026-02-17'
 heroImage: '../../../assets/blog/default-covers/ai-01.webp'

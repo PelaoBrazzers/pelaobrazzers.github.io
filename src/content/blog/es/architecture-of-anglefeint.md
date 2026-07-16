@@ -1,5 +1,5 @@
 ---
-title: 'Arquitectura de Anglefeint: por qué una composición de cuatro capas'
+title: 'Plantilla temporal'
 subtitle: 'ThemeFrame -> Shell -> Layout -> Page'
 description: 'Explicación práctica de la arquitectura de Anglefeint y de cómo mejora el mantenimiento a largo plazo.'
 pubDate: '2026-03-03'

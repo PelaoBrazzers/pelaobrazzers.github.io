@@ -1,5 +1,5 @@
 ---
-title: 'Diseño visual por rutas'
+title: 'Plantilla temporal'
 subtitle: 'Una atmósfera para cada etapa de lectura'
 description: 'Cómo Anglefeint separa atmósferas visuales por ruta sin perder foco en el contenido.'
 pubDate: '2026-03-03'

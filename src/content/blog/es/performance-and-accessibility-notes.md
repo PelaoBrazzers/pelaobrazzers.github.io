@@ -1,5 +1,5 @@
 ---
-title: 'Notas de implementación para temas visuales'
+title: 'Plantilla temporal'
 subtitle: 'Equilibrio entre atmósfera y lectura'
 description: 'Principios prácticos para mantener legibilidad y mantenimiento en un tema visualmente intenso.'
 pubDate: '2026-03-03'

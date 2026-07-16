@@ -1,5 +1,5 @@
 ---
-title: 'Por que Home empieza en Matrix'
+title: 'Plantilla temporal'
 subtitle: 'La primera pantalla es una senal de identidad'
 description: 'Por que usamos lenguaje Matrix en la portada: primera impresion, memoria y posicionamiento.'
 pubDate: '2026-03-04'
